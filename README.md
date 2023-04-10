@@ -18,7 +18,6 @@ makes all WandB functions behave as no-ops. You should then replace `wandb.log(.
 
 <a name="quickstart"></a>
 ## Quickstart 🚀
-<!-- Download all the data including our pretrained models (1.3G) -->
 
 ``` bash
 git clone https://github.com/ripl/diffusion-for-shared-autonomy.git
@@ -63,27 +62,7 @@ NOTE: The following errors can be safely ignored
 > ALSA lib confmisc.c:767:(parse_card) cannot find card '0'  
 > ALSA lib conf.c:4732:(_snd_config_evaluate) function xxxxx returned error: No such file or directory
 
-
-
-
-<!-- ## Running evaluation -->
-<!-- Maze2D: takuma-yoneda/diffusha/ulh2ovtj -->
-<!-- LunarLander-v1: takuma-yoneda/diffusha/24gbtia4 -->
-<!-- LunarLander-v5: takuma-yoneda/diffusha/qa3br4pa -->
-<!-- BlockPushMultimodal-v1: takuma-yoneda/diffusha/a6tc22h8 -->
-
-<!-- On slurm, these are at `/share/data/ripl-takuma/projects/diffusion-shared-autonomy/data/ddpm` -->
-
-<!-- The path of a pretrained (diffusion) model should look like `model-root-dir/lunarlander-v1/step_00100000.pt`. -->
-
-<!-- ``` bash -->
-<!-- python -m diffusha.diffusion.evaluation.eval_assistance --env-name LunarLander-v1 --model-dir /path/to/model/root/dir --out-dir /path/to/outdir -->
-<!-- ``` -->
-<!-- This generates a pickle file `Path(args.out_dir) / 'assistance' / args.env_name.lower() / timestamp / 'eval.pt'`. -->
-<!-- The pickle file contains a dictionary that has TODO... -->
-
-<!-- This evaluates the expert, noisy expert (random action with some probability), laggy expert (repeats previous action with some probability), and assisted version of each expert. -->
-
+---
 
 ## Going through the entire pipeline 🐢
 
@@ -173,11 +152,9 @@ class DCArgs(PrefixProto):
 ```
 
 **Lunar Lander Landing**
-<!-- Run it with a sweep file: -->
 `python -m diffusha.data_collection.generate_data -l 0 --sweep-file diffusha/data_collection/config/sweep/sweep_lander-v5.jsonl`
 
 **Block Pushing**
-<!-- Run it with a sweep file: -->
 `python -m diffusha.data_collection.generate_data -l 0 --sweep-file diffusha/data_collection/config/sweep/sweep-blockpush.jsonl`
 
 **Block Pushing (Running flip-replay)**  
