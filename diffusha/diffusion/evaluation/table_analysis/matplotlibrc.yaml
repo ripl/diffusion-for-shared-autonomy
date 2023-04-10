@@ -1,0 +1,68 @@
+savefig.dpi: 226
+savefig.bbox: tight
+savefig.pad_inches: 0
+savefig.transparent: False
+
+axes.linewidth     : 2
+axes.spines.top    : False
+axes.spines.right  : False
+
+axes.grid          : True    # display grid or not
+axes.grid.axis     : both    # which axis the grid should apply to
+axes.grid.which    : major # gridlines at {major, minor, both} ticks
+
+# GRID
+grid.color     : b0b0b0  # grid color
+grid.linestyle : --      # solid
+grid.linewidth : 0.8     # in points
+grid.alpha     : 1.0     # transparency, between 0.0 and 1.0
+
+
+font.family        : serif
+font.serif         : Times New Roman
+font.sans-serif    : Helvetica, Avant Garde, Computer Modern Sans Serif
+font.cursive       : Zapf Chancery
+font.monospace     : Courier, Computer Modern Typewriter
+font.size           : 18.0
+axes.titlesize      : 28.0
+axes.titlepad       : 20
+axes.labelsize      : large
+axes.labelweight    : 300
+
+lines.linewidth      : 2
+
+mathtext.rm  : serif
+mathtext.it  : serif:italic
+mathtext.bf  : serif:bold
+mathtext.fontset: custom
+
+legend.frameon       : True
+legend.scatterpoints : 3
+legend.fontsize      : medium
+legend.markerscale   : 0.0
+legend.handlelength  : 0.8
+legend.handleheight  : 0
+legend.handletextpad : 0.5
+legend.edgecolor : b0b0b0
+legend.framealpha : 0.8
+
+#axes.color_cycle    : b, g, r, c, m, y, k  # color cycle for plot lines
+                                            # as list of string colorspecs:
+                                            # single letter, long name, or
+                                            # web-style hex
+
+### TICKS
+# see http://matplotlib.org/api/axis_api.html#matplotlib.axis.Tick
+xtick.minor.visible  : True
+ytick.minor.visible  : True
+xtick.major.size     : 6      # major tick size in points
+xtick.minor.size     : 4      # minor tick size in points
+xtick.major.width    : 2      # major tick width in points
+xtick.minor.width    : 1      # minor tick width in points
+#xtick.labelsize     : large  # fontsize of the tick labels
+
+ytick.major.size     : 6      # major tick size in points
+ytick.minor.size     : 4      # minor tick size in points
+ytick.major.width    : 2      # major tick width in points
+ytick.minor.width    : 1      # minor tick width in points
+#ytick.labelsize     : large  # fontsize of the tick labels

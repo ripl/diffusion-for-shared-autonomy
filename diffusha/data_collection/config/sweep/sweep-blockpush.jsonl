@@ -1,0 +1,2 @@
+{"DCArgs.env_name": "BlockPushMultimodal-v1", "DCArgs.randp": 0.0, "DCArgs.pushenv_user_goal": "target", "DCArgs.num_transitions": 3000000, "DCArgs.valid_return_threshold": 200}
+{"DCArgs.env_name": "BlockPushMultimodal-v1", "DCArgs.randp": 0.0, "DCArgs.pushenv_user_goal": "target2", "DCArgs.num_transitions": 3000000, "DCArgs.valid_return_threshold": 200}

@@ -1,0 +1,2 @@
+{"env_name": "LunarLander-v1", "num_training_steps": 30000, "randp": 0.0}
+{"env_name": "LunarLander-v5", "num_training_steps": 30000, "randp": 0.0}

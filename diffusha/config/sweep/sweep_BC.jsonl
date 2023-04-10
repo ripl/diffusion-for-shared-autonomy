@@ -1,0 +1,2 @@
+{"naive_blending": true, "num_training_steps": 5000, "env_name": "LunarLander-v1"}
+{"naive_blending": true, "num_training_steps": 5000, "env_name": "LunarLander-v5"}

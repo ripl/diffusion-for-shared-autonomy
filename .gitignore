@@ -1,0 +1,16 @@
+.DS_Store
+.idea
+*.log
+tmp/
+
+*.py[cod]
+*.egg
+build
+htmlcov
+
+__pycache__/
+.tox
+wandb/
+.env.secret
+.output/
+etc/

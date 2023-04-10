@@ -1,0 +1,6 @@
+{"DCArgs.valid_return_threshold": 800, "DCArgs.env_name": "LunarLander-v5", "DCArgs.randp": 0.0}
+{"DCArgs.valid_return_threshold": 800, "DCArgs.env_name": "LunarLander-v5", "DCArgs.randp": 0.1}
+{"DCArgs.valid_return_threshold": 800, "DCArgs.env_name": "LunarLander-v5", "DCArgs.randp": 0.2}
+{"DCArgs.valid_return_threshold": 800, "DCArgs.env_name": "LunarLander-v5", "DCArgs.randp": 0.3}
+{"DCArgs.valid_return_threshold": 800, "DCArgs.env_name": "LunarLander-v5", "DCArgs.randp": 0.4}
+{"DCArgs.valid_return_threshold": 800, "DCArgs.env_name": "LunarLander-v5", "DCArgs.randp": 0.5}
