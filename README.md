@@ -175,12 +175,13 @@ Store the generated demonstrations in the correct locations:
   - `$DATA_DIR/replay/blockpush/target-flipped/randp_0.0` (flipped replay)
 
 Run the following command from the root of the project directory:
+
 **Lunar Lander / Reacher**
 - reacher task: `python -m diffusha.diffusion.train --sweep-file diffusha/config/sweep/sweep-lunarlander.jsonl -l 0`
 - lander task: `python -m diffusha.diffusion.train --sweep-file diffusha/config/sweep/sweep-lunarlander.jsonl -l 1` 
 
 **Block Pushing**
-`python -m diffusha.diffusion.train --sweep-file diffusha/config/sweep/sweep-blockpush.jsonl -l 0
+- `python -m diffusha.diffusion.train --sweep-file diffusha/config/sweep/sweep-blockpush.jsonl -l 0
 `
 ---
 
