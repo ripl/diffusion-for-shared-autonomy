@@ -76,7 +76,7 @@ The following sections describe how to manually run all the steps of our pipelin
 You can either follow the instruction below, or you can also download the resulting dataset:
 
 <details>
-<summary>You can also download the resulting dataset (TODO)</summary>
+<summary>You can also download the resulting dataset</summary>
 
 ``` bash
 cd diffusion-for-shared-autonomy
@@ -84,9 +84,6 @@ wget https://dl.ttic.edu/diffusion-for-shared-autonomy.tar.gz
 tar xfvz diffusion-for-shared-autonomy
 mv hosted_data/* data-dir/
 ```
-
-TODO: the directory structure should be fixed
-`hosted_data/replay/lunarlander/v5/randp_0.0/randp_0.0/<files>` --> `hosted_data/replay/lunarlander/v5/randp_0.0/<files>`
 
 </details>
 
