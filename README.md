@@ -185,13 +185,14 @@ Run the following command from the root of the project directory:
 If you find our work useful in your research, please consider citing the paper as follows:
 
 ``` bibtex
-@article{yoneda2023diffusha,
-        doi = {10.48550/ARXIV.2302.12244},
-        url = {https://arxiv.org/abs/2302.12244},
-        author = {Yoneda, Takuma and Sun, Luzhe and Stadie, Bradly and Yang, Ge and Walter, Matthew R.},
-        keywords = {Robotics (cs.RO), Machine Learning (cs.LG), FOS: Computer and information sciences, FOS: Computer and information sciences},
-        title = {To the Noise and Back: {D}iffusion for Shared Autonomy},
-        year = {2023},
-        journal={arXiv preprint arXiv:2302.12244},
-    }
+@inproceedings{yoneda2023diffusha,
+    author = {Takuma Yoneda and
+              Luzhe Sun and
+              Ge Yang and
+              Bradly C. Stadie and
+              Matthew R. Walter},
+    title = {To the Noise and Back: Diffusion for Shared Autonomy},
+    booktitle = {Robotics: Science and Systems XIX, Daegu, Republic of Korea, July 10-14, 2023},
+    year = {2023}
+}
 ```
